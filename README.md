@@ -1,22 +1,23 @@
 # CLI-Interface for counting the number of lines, words and characters present in a file.
 
-## for doing so follow the below given steps
+## For doing so follow the below given steps
 
-- first clone the repo
-- then do `npm install`
+- First clone the repository
+- then run `npm install` in the terminal
 
 
-## then for counting the number of lines in a file 
-### run the following given command in the cli
+## For counting the number of lines in a file run the following given command in the CLI
 
 - `node index.js countLines "write the file path here without the double quotes"`
 
-## then for counting the number of words in a file 
-### run the following given command in the cli
+## For counting the number of words in a file run the following given command in the CLI
 
 - `node index.js countWords "write the file path here without the double quotes"`
 
-## then for counting the number of characters in a file 
-### run the following given command in the cli
+## For counting the number of characters in a file run the following given command in the CLI
 
 - `node index.js countChar "write the file path here without the double quotes"`
+
+## If you want to know that what all options are there then run the following command in the CLI
+
+-  `node index.js -h`
