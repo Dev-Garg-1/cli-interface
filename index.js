@@ -44,7 +44,7 @@ program.command('countWords')
 
 
 program.command('countChar')
-  .description('Count the number of words in a file')
+  .description('Count the number of characters in a file')
   .argument('<file>', 'path of the file')
   .action((file) => {
     fs.readFile(file, 'utf8', (err, data) => {
